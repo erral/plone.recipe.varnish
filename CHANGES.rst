@@ -4,6 +4,10 @@ Changelog
 2.3.1 (unreleased)
 ------------------
 
+- BREAKING: only support Varnish version 6.0 LTS. If you want to use a different Varnish
+  version with this recipe, provide your own vcl and a custom link to a varnish download.
+  [fredvd]
+
 - Disable building sphinx documentation in the varnish-build/cmmi stage of installing the software. 
   [fredvd]
   
